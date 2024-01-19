@@ -1,6 +1,8 @@
-This scaffold is meant to help you bootstrap your own projects with Magic's [Dedicated Wallet](https://magic.link/docs/auth/overview). Magic is a developer SDK that integrates with your application to enable passwordless Web3 onboarding.
+This project was bootstrapped with the `make-magic` CLI with a [Dedicated Wallet](https://magic.link/docs/auth/overview), then supplemented with a serverless function to illustrate using Magic's Admin SDK.
 
-The folder structure of this scaffold is designed to encapsulate all things Magic into one place so you can easily add or remove components and functionality. For example, all Magic-specific components are in the `src/components/magic` directory while generic UI components are in the `src/components/ui` directory.
+[Magic](https://magic.link/docs/api/overview) is a developer SDK that integrates with your application to enable passwordless Web3 onboarding. The [Magic Admin SDK](https://magic.link/docs/api/server-side-sdks/overview) is a developer SDK meant for your application's backend to enable token validation, session management, and more.
+
+The folder structure of this scaffold is designed to encapsulate all things Magic into one place so you can easily add or remove components and functionality. For example, all client-side, Magic-specific components are in the `src/components/magic` directory while generic UI components are in the `src/components/ui` directory.
 
 ## Next.js
 
